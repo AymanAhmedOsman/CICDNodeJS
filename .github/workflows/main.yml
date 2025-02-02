@@ -23,8 +23,8 @@ jobs:
 
       - name: Build and push Docker image
         run: |
-          docker build -t ayman380/node-js:v2 .
-          docker push ayman380/node-js:v2
+          docker build -t ayman380/node-js:v3 .
+          docker push ayman380/node-js:v3
 
   deploy:
     needs: build
